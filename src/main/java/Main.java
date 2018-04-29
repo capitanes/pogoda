@@ -12,10 +12,10 @@ import javax.swing.JOptionPane;
 
 public class Main {
 
-    public static Document getPage() throws IOException {
+    private static Document getPage() throws IOException {
         String url = "http://www.pogoda.spb.ru/";
-        Document page = Jsoup.parse(new URL(url), 3000);
-        return page;
+        return Jsoup.parse(new URL(url), 3000);
+
     }
 
     private static Pattern pattern = Pattern.compile("\\d{2}\\.\\d{2}");
@@ -31,6 +31,7 @@ public class Main {
     public static void main(String[] args) {
 
 
+/*
 
         String fn = JOptionPane.showInputDialog("Введи первое число");
         String sn = JOptionPane.showInputDialog("Введи второе число");
@@ -41,6 +42,7 @@ public class Main {
         int sum = num1 + num2;
         JOptionPane.showMessageDialog(null, "Сумма равна " + sum, "Калькулятор", JOptionPane.PLAIN_MESSAGE);
 
+*/
 
 
         try {
