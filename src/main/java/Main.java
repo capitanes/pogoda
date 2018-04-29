@@ -32,6 +32,7 @@ public class Main {
 
 
 
+/*
         String fn = JOptionPane.showInputDialog("Введи первое число");
         String sn = JOptionPane.showInputDialog("Введи второе число");
 
@@ -41,6 +42,7 @@ public class Main {
         int sum = num1 + num2;
         JOptionPane.showMessageDialog(null, "Сумма равна " + sum, "Калькулятор", JOptionPane.PLAIN_MESSAGE);
 
+*/
 
 
         try {
